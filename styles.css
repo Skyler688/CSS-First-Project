@@ -46,6 +46,11 @@ hr {
   border-color: brown;
 }
 
+.middle-line {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .bottom-line {
   margin-top: 25px;
 }
@@ -62,15 +67,47 @@ h2 {
   font-size: 18px;
 }
 
+.item-1 p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .flavor,
 .dessert {
   text-align: left;
-  width: 75%;
+  width: 74%;
 }
 
 .price {
   text-align: right;
-  width: 25%;
+  width: 24%;
+}
+
+.location {
+  text-align: left;
+  width: 49%;
+  font-size: 15px;
+}
+
+.number {
+  text-align: right;
+  width: 49%;
+  font-size: 15px;
+}
+
+.locate-1 {
+  font-family: Impact, serif;
+  text-align: left;
+  width: 49%;
+  font-size: 20px;
+}
+
+.num-1 {
+  font-family: Impact, serif;
+  text-align: right;
+  width: 49%;
+  font-size: 20px;
 }
 
 /* FOOTER */
